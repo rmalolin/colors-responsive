@@ -189,7 +189,7 @@
 
 .hero {
   background: #131313;
-  background: linear-gradient(to right, #161616, #000000);
+  background: linear-gradient(to right, #161616, #131313);
   padding: 200px 0;
 }
 
@@ -238,6 +238,10 @@
 }
 
 @media screen and (max-width: 768px) {
+  .hero {
+    padding: 40px 0;
+  }
+
   .hero__heading {
     font-size: 60px;
   }
