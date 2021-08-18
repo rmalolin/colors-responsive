@@ -239,15 +239,20 @@
 
 @media screen and (max-width: 768px) {
   .hero {
-    padding: 25px 0;
+    padding: 50px 0;
   }
 
   .hero__heading {
-    font-size: 60px;
+    font-size: 50px;
   }
 
   .hero__description {
+    margin-top: 0;
     font-size: 40px;
+  }
+
+  .hero__container button {
+    margin-top: 8rem;
   }
 }
 
@@ -416,6 +421,10 @@
 }
 
 @media screen and (max-width: 480px) {
+  #about {
+    padding: 20px 0;
+  }
+
   .main__img--card {
     width: 250px;
     height: 250px;
@@ -428,16 +437,17 @@
 
   .main__content h1 {
     font-size: 2rem;
-    margin-top: 3rem;
+    margin-top: 0.5rem;
   }
 
   .main__content h2 {
     font-size: 2rem;
+    margin-top: -1rem;
   }
 
   .main__content p {
     font-size: 1.5rem;
-    margin-top: 2rem;
+    margin-top: 0.5rem;
   }
 
   .main__btn {
@@ -572,6 +582,14 @@
 }
 
 @media screen and (max-width: 768px) {
+  .services {
+    padding: 20px 0;
+  }
+
+  .services h1 {
+    margin-bottom: 0.5rem;
+  }
+
   .services__wrapper {
     grid-template-columns: 1fr;
   }
@@ -685,6 +703,14 @@
 }
 
 @media screen and (max-width: 480px) {
+  #sign-up {
+    padding: 35px 0;
+  }
+
+  #card-2 {
+    margin-top: -4rem;
+  }
+
   .footer__link--items {
     margin: 0;
     padding: 10px;
